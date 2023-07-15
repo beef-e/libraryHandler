@@ -11,6 +11,7 @@ function Login() {
 							className="form-control rounded-3"
 							id="floatingUsername"
 							placeholder="Username"
+							required
 						/>
 						<label
 							htmlFor="floatingUsername"
@@ -25,6 +26,7 @@ function Login() {
 							className="form-control rounded-3"
 							id="floatingPassword"
 							placeholder="Password"
+							required
 						/>
 						<label
 							htmlFor="floatingPassword"

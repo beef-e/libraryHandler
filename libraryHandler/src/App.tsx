@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import Header from './components/Header';
 import Login from './components/Login';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import OptionsList from './components/OptionsList';
 import './App.css';
 
 function App() {
@@ -10,7 +8,7 @@ function App() {
 		<>
 			<Header />
 
-			<Login></Login>
+			<OptionsList></OptionsList>
 		</>
 	);
 }
