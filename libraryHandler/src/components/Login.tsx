@@ -3,7 +3,9 @@ function Login() {
 		<div className="container bg-secondary dimensione-fissa rounded-3">
 			<h4 className="display-3 mt-5">Login</h4>
 
-			<form>
+			<form
+				action="/users"
+				method="get">
 				<div className="mb-3 mt-3">
 					<div className="form-floating mb-3">
 						<input
