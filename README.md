@@ -29,6 +29,7 @@ The functionality is very intuitive. Choose what action you want to perform and.
 
 ## Used Technologies
 
+- Vue.js, to handle the React project
 - React & TypeScript, for the frontend
 - MariaDB, for DB integration
 - NodeJS/Express, to handle HTTP requests
